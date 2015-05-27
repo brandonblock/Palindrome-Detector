@@ -2,7 +2,7 @@ package PalindromeDetector;
 
 import java.util.Scanner;
 
-public class PalindromeFromScratch {
+public class PalindromeDetector {
 
     public static void main(String[] args) {
         // TODO code application logic here
