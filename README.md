@@ -1,6 +1,6 @@
 # Palindrome-Detector
 Detects whether a string is a palindrome.
-Version reflect new concepts as I learn them.
+Versions reflect new concepts as I learn them.
 
 CHANGELOG
 
