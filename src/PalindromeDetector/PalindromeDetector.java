@@ -5,25 +5,24 @@ import java.util.Scanner;
 public class PalindromeDetector {
 
     public static void main(String[] args) {
-        //String userword = getWord();
+
         boolean result = isPalindrome(getWord());
         userNotify(result);
     }
     
     public static String getWord() {
+        
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter your word:");
         String word = input.nextLine();
-        return word;
+        
+        return word.toLowerCase();
     }
     
     public static boolean isPalindrome(String word) {
         
-        String wordlowered = word.toLowerCase();
-        StringBuilder tobeflipped = new StringBuilder();
-        tobeflipped.append(wordlowered);
-        String flipped = tobeflipped.reverse().toString();
-        boolean test = flipped.equals(wordlowered);
+        String flipped = new StringBuilder().append(word).reverse().toString();
+        boolean test = flipped.equals(word);
         
         return test;
     }
