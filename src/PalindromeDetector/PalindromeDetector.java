@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class PalindromeDetector {
 
     public static void main(String[] args) {
-        // TODO code application logic here
-        String userword = getWord();
-        boolean result = isPalindrome(userword);
+        //String userword = getWord();
+        boolean result = isPalindrome(getWord());
         userNotify(result);
     }
     
