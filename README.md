@@ -1,7 +1,13 @@
-# Palindrome-Detector
-Detects whether a string is a palindrome.
-Version reflect new concepts as I learn them.
+Detects whether a string is a palindrome. Versions reflect new concepts as I learn them.
 
-To Do:
-- Numeric input exclusion
-- Creation of Palindrome() class that accepts entered string as an argument
+To Do: Creat IsPalindrome class and tests. Numeric/multi-word/exclusion.
+
+CHANGELOG
+
+0.2.1 5/27/2015
+
+Eliminated several redundant lines of code.
+
+0.2 5/27/2015
+
+Code cleanded up. Separate functions created to fetch, check and report palindrome status. Functionality remains the same.
